@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Mark One</title>
+</head>
+
+<body>
+    <section class="main-page">
+        <h1 class="main-title">Password generator</h1>
+        <div class="config-generator">
+            <label class="text-size" for="slider">Size password: <span></span> characters</label>
+            <input type="range" id="slider" name="slider" value="12" min="4" max="32">
+            <div class="configpass">
+                <label for="numbers" class="checkbox-pass">With numbers</label>
+                <input type="checkbox" name="numbers" id="checkbox-numbers" class="checkbox">
+                <label for="letters" class="checkbox-pass">With letters</label>
+                <input type="checkbox" name="letters" id="checkbox-letters" class="checkbox">
+                <label for="characters" class="checkbox-pass">With special characters</label>
+                <input type="checkbox" name="characters" id="checkbox-characters" class="checkbox">
+            </div>
+            <button class="btn-generator">Generate password</button>
+        </div>
+        <div class="display">
+            <p class="result">result here</p>
+        </div>
+    </section>
+</body>
+
+</html>
